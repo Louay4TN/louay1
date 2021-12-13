@@ -1,2 +1,2 @@
 from nginx 
-copy /.test.html
+copy ./test.html louay4tn/louaygit:latest
