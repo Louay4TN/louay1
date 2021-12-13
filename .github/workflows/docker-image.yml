@@ -28,7 +28,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v1
         with:
-          username: {{$secrets.DOCKERHUB_USERNAME}}
-          password: {{$secrets.DOCKERHUB_PWD}}
-          repository: ****/*****
+          username: ${{secrets.DOCKERHUB_USERNAME}}
+          password: ${{secrets.DOCKERHUB_PWD}}
+          repository: louay4tn/louaygit
           tag_with_ref: true
