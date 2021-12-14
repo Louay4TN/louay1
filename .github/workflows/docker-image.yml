@@ -7,7 +7,7 @@ on:
     branches: [ main ]
     
 env: 
-  IMAGE_NAME: louaygit:latest
+  IMAGE_NAME: louay4tn/louaygit:main
   DEPLOYMENT_NAME: ngnix-01
   PORT: 5000
 
