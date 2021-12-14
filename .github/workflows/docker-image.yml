@@ -8,7 +8,7 @@ on:
     
 env: 
   IMAGE_NAME: ngnix:latest
-  DEPLOYMENT_NAME: ngnix
+  DEPLOYMENT_NAME: ngnix-01
   PORT: 80
 
 jobs:
