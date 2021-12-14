@@ -8,7 +8,7 @@ on:
     
 env: 
   IMAGE_NAME: louay4tn/louaygit:main
-  DEPLOYMENT_NAME: ngnix-01
+  DEPLOYMENT_NAME: ngnix-deployment 
   PORT: 5000
 
 jobs:
