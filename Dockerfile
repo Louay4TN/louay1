@@ -1,2 +1,2 @@
 from nginx 
-copy ./test.html louay4tn/louaygit:main
+copy ./test.html /user/share/nginx/html/test.html
