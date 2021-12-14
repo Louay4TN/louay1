@@ -2,7 +2,7 @@
  kind: Service
  metadata:
  name: my-service
-  spec:
+  spec :
   selector:
   app: MyApp
   ports:
